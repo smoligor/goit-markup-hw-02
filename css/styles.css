@@ -1,4 +1,7 @@
 /* ================= GLOBAL STYLES ================= */
+:root {
+  --footer-text-color: #F4F4FD;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -225,7 +228,7 @@ nav ul {
 }
 
 .footer .logo-accent {
-  color: #f4f4fd;
+  color: var(--footer-text-color);
 }
 
 .footer-text {
@@ -233,5 +236,5 @@ nav ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--footer-text-color);
 }
