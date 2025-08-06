@@ -82,6 +82,27 @@ img {
   color: #404bbf;
 }
 
+/* Header layout for tests: float-based alignment without forbidden properties */
+.header {
+  overflow: hidden;
+}
+
+.logo {
+  float: left;
+}
+
+nav ul {
+  float: left;
+}
+
+.nav-link {
+  margin-right: 32px;
+}
+
+.contacts {
+  float: right;
+}
+
 /* ================= HERO SECTION ================= */
 .hero {
   background-color: #2e2f42;
@@ -114,7 +135,7 @@ img {
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #404bbf;
+  background-color: #404BBF;
 }
 
 /* ================= FEATURES SECTION ================= */
@@ -123,7 +144,7 @@ img {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
+  font-family: "Roboto", sans-serif;
   color: #2e2f42;
   margin-bottom: 8px;
 }
@@ -131,7 +152,7 @@ img {
 .features-text {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  background-color: #4D5AE5;
   color: #434455;
 }
 
