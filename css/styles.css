@@ -111,6 +111,7 @@ nav ul {
 .hero-button {
   min-width: 169px;
   margin: 0 auto;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
