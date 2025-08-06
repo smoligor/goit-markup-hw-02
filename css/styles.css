@@ -37,6 +37,10 @@ img {
 
 /* ================= HEADER ================= */
 
+.header {
+  overflow: hidden;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -46,10 +50,15 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  float: left;
 }
 
 .logo-accent {
   color: #2e2f42;
+}
+
+nav ul {
+  float: left;
 }
 
 .nav-link {
@@ -58,6 +67,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-right: 32px;
 }
 
 .nav-link:hover,
@@ -67,7 +77,7 @@ img {
 
 .contacts {
   font-style: normal;
-  margin-left: auto;
+  float: right;
 }
 
 .contacts-link {
@@ -80,27 +90,6 @@ img {
 .contacts-link:hover,
 .contacts-link:focus {
   color: #404bbf;
-}
-
-/* Header layout for tests: float-based alignment without forbidden properties */
-.header {
-  overflow: hidden;
-}
-
-.logo {
-  float: left;
-}
-
-nav ul {
-  float: left;
-}
-
-.nav-link {
-  margin-right: 32px;
-}
-
-.contacts {
-  float: right;
 }
 
 /* ================= HERO SECTION ================= */
