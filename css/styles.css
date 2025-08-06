@@ -117,14 +117,14 @@ nav ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   cursor: pointer;
   border: none;
 }
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 /* ================= FEATURES SECTION ================= */
