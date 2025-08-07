@@ -39,13 +39,6 @@ img {
 }
 
 /* ================= HEADER ================= */
-.header {
-  overflow: hidden; /* Replaces Flexbox for layout */
-}
-
-.nav {
-  float: left;
-}
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -56,19 +49,15 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
-  float: left;
+  
 }
 
 .logo-accent {
   color: #2e2f42;
 }
 
-.nav-list {
-  float: left;
-}
-
 .nav-item {
-  float: left;
+  
   margin-right: 40px;
 }
 
@@ -91,15 +80,10 @@ img {
 
 .contacts {
   font-style: normal;
-  float: right;
-}
-
-.contacts-list {
-  float: left;
 }
 
 .contacts-item {
-  float: left;
+  
   margin-left: 40px;
 }
 
@@ -158,12 +142,8 @@ img {
   margin-bottom: 120px;
 }
 
-.features-list {
-  overflow: hidden; /* Replaces Flexbox for layout */
-}
-
 .features-item {
-  float: left;
+  
   
   margin-right: 24px;
 }
@@ -204,12 +184,8 @@ img {
   color: #2e2f42;
 }
 
-.team-list {
-  overflow: hidden; /* Replaces Flexbox for layout */
-}
-
 .team-item {
-  float: left;
+  
   
   margin-right: 24px;
   background-color: #ffffff;
@@ -255,12 +231,8 @@ img {
   color: #2e2f42;
 }
 
-.portfolio-list {
-  overflow: hidden; /* Replaces Flexbox for layout */
-}
-
 .portfolio-item {
-  float: left;
+  
   
   margin-right: 24px;
   margin-bottom: 48px;
